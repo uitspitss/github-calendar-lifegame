@@ -96,9 +96,9 @@ window.addEventListener("DOMContentLoaded", function(){
     if(!is_changed){
       clearInterval(timer);
       if(alive_num === 0){
-        alert(`congturations! ${nickname}'s calendar is alive to ${gen} generations.`);
+        alert(`congratulations! ${nickname}'s calendar is alive to ${gen} generations.`);
       }else{
-        alert(`congturations! ${nickname}'s calendar is alive to ${gen} generations, and ${alive_num} cells are alive forever.`);
+        alert(`congratulations! ${nickname}'s calendar is alive to ${gen} generations, and ${alive_num} cells are alive forever.`);
       }
     }
     gen++;
